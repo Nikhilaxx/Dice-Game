@@ -1,7 +1,3 @@
-Here’s an example of a well-structured README file for your React.js Dice Game project:
-
----
-
 # **Dice Game 🎲**
 
 A fun and interactive Dice Game built with **React.js** and **styled-components**. Players can roll a dice, select a number, and compete to get the highest score. The project demonstrates fundamental React concepts like state management, component reusability, and conditional rendering.
@@ -64,38 +60,4 @@ A fun and interactive Dice Game built with **React.js** and **styled-components*
    - Mismatch: Subtract 2 points from your score.
 4. Reset the game anytime to start over.
 
----
 
-## **Folder Structure**
-
-```plaintext
-src/
-├── components/
-│   ├── RollDice.jsx    # Handles dice rolling
-│   ├── NumberSelector.jsx  # Allows users to select a number
-│   └── TotalScore.jsx  # Displays the current score
-├── styled/
-│   └── Button.js       # Reusable styled buttons
-├── App.jsx             # Main component
-├── main.jsx            # Entry point
-└── index.css           # Global styles
-```
-
----
-
-## **How to Contribute**
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit:
-   ```bash
-   git commit -m "Add your message here"
-   ```
-4. Push your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Create a pull request.
